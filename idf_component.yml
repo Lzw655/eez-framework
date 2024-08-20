@@ -1,0 +1,11 @@
+version: 0.0.1
+description: EEZ Framework UI components for Espressif SoCs
+url: https://github.com/espressif/esp-ui
+issues: https://github.com/espressif/esp-ui/issues
+repository: https://github.com/espressif/esp-ui.git
+dependencies:
+  idf: ">=5.0"
+  cmake_utilities: "0.*"
+  lvgl/lvgl:
+    version: ">=8.3,<9"
+    public: true
